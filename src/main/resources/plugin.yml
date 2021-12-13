@@ -1,0 +1,12 @@
+name: World1-6Music
+version: '${project.version}'
+main: com.andrew121410.mc.world16music.World16Music
+api-version: 1.18
+authors: [ Andrew121410 ]
+depend:
+  - World1-6Utils
+  - WorldEdit
+
+commands:
+  MusicManager:
+    permission: world16music.musicmanager
